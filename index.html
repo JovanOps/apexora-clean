@@ -1,198 +1,394 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Apexora Clean | Reinigung & Umzug</title>
-  <meta name="description" content="Apexora Clean bietet professionelle Reinigung, Umzugstransporte und Spezialreinigungen in der Schweiz." />
+  <title>Apexora Clean | Reinigung in Zürich</title>
 
-  <link rel="stylesheet" href="css/style.css" />
+  <meta
+    name="description"
+    content="Apexora Clean bietet zuverlässige Reinigung für Privathaushalte und kleinere Geschäftsräume in Zürich und Umgebung."
+  >
+  <meta name="theme-color" content="#123d31">
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
 <header class="header">
   <div class="container nav">
-    <a href="#" class="brand">
+
+    <a href="index.html#start" class="brand" aria-label="Apexora Clean Startseite">
       <span>Apexora Clean</span>
       <small>Reinheit. Vertrauen. Qualität.</small>
     </a>
 
-    <nav class="menu">
-      <a href="#">Startseite</a>
-      <a href="#leistungen">Leistungen</a>
-      <a href="#prozess">Ablauf</a>
-      <a href="#about">Über uns</a>
-      <a href="#kontakt">Kontakt</a>
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-label="Navigation öffnen"
+      aria-controls="main-menu"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="menu" id="main-menu" aria-label="Hauptnavigation">
+      <a href="index.html#start" aria-current="page">Startseite</a>
+      <a href="leistungen.html">Leistungen &amp; Preise</a>
+      <a href="index.html#prozess">Ablauf</a>
+      <a href="index.html#about">Über uns</a>
+      <a href="index.html#kontakt">Kontakt</a>
+      <a href="index.html#kontakt" class="mobile-nav-cta">Kostenlose Offerte</a>
     </nav>
 
-    <a href="#kontakt" class="nav-btn">Kostenlose Offerte →</a>
+    <a href="index.html#kontakt" class="nav-btn">Kostenlose Offerte →</a>
+
   </div>
 </header>
 
 <main>
 
-<section class="hero">
-  <div class="container hero-grid">
+  <section class="hero" id="start">
+    <div class="container hero-grid">
 
-    <div class="hero-text">
-      <span class="eyebrow">Reinigung · Umzug · Entsorgung</span>
+      <div class="hero-text">
 
-      <h1>Natürlich sauber.<br>Professionell erledigt.</h1>
+        <span class="eyebrow">
+          Privatreinigung · Büroreinigung · Grundreinigung
+        </span>
 
-      <p>
-        Apexora Clean bietet professionelle Reinigung, zuverlässige Umzüge
-        und nachhaltige Entsorgung für Privat- und Geschäftskunden.
-      </p>
+        <h1>
+          Natürlich sauber.<br>
+          Professionell erledigt.
+        </h1>
 
-      <div class="hero-actions">
-        <a href="#kontakt" class="btn primary">Kostenlose Offerte anfordern →</a>
-        <a href="#leistungen" class="btn secondary">Unsere Leistungen →</a>
+        <p>
+          Apexora Clean bietet zuverlässige Reinigung für Privathaushalte
+          und kleinere Geschäftsräume – sorgfältig, flexibel und auf Ihre
+          Bedürfnisse abgestimmt.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#kontakt" class="btn primary">
+            Kostenlose Offerte anfordern →
+          </a>
+
+          <a href="leistungen.html" class="btn secondary">
+            Leistungen &amp; Preise →
+          </a>
+        </div>
+
+        <div class="trust-row" aria-label="Unsere Vorteile">
+          <span>✓ Zuverlässig</span>
+          <span>✓ Transparente Offerten</span>
+          <span>✓ Sorgfältig</span>
+        </div>
+
       </div>
 
-      <div class="trust-row">
-        <span>✓ Zuverlässig</span>
-        <span>✓ Transparente Preise</span>
-        <span>✓ Nachhaltig</span>
+      <div
+        class="hero-visual"
+        role="img"
+        aria-label="Professionelle Reinigung eines modernen Wohnraums"
+      ></div>
+
+    </div>
+  </section>
+
+  <section class="values" aria-label="Unsere Werte">
+    <div class="container values-grid">
+
+      <div class="value-card">
+        <h3>Sorgfalt</h3>
+        <p>Wir behandeln jeden Raum mit grösster Sorgfalt.</p>
       </div>
+
+      <div class="value-card">
+        <h3>Vertrauen</h3>
+        <p>Klare Kommunikation und verlässliche Absprachen.</p>
+      </div>
+
+      <div class="value-card">
+        <h3>Qualität</h3>
+        <p>Saubere Arbeit mit einem Blick fürs Detail.</p>
+      </div>
+
+      <div class="value-card">
+        <h3>Verantwortung</h3>
+        <p>Bewusster Umgang mit Räumen, Materialien und Ressourcen.</p>
+      </div>
+
     </div>
+  </section>
 
-    <div class="hero-visual">
-      <img src="slike/logo1.png" alt="Apexora Clean Logo">
+  <section class="services" id="leistungen">
+    <div class="container services-layout">
+
+      <div class="section-title">
+        <span>Unsere Leistungen</span>
+
+        <h2>Sauberkeit aus einer Hand</h2>
+
+        <p>
+          Wir bieten professionelle Reinigungsleistungen für private
+          und kleinere geschäftliche Räume – zuverlässig, effizient
+          und individuell abgestimmt.
+        </p>
+
+        <a href="leistungen.html" class="inline-link">
+          Alle Leistungen und Preise ansehen →
+        </a>
+      </div>
+
+      <div class="services-content">
+
+        <div class="service-grid">
+
+          <a class="service-card" href="leistungen.html#privatreinigung">
+            <h3>Privatreinigung</h3>
+            <p>
+              Regelmässige oder einmalige Reinigung von Wohnungen
+              und Häusern.
+            </p>
+            <span class="card-link">Mehr erfahren →</span>
+          </a>
+
+          <a class="service-card" href="leistungen.html#bueroreinigung">
+            <h3>Büroreinigung</h3>
+            <p>
+              Zuverlässige Reinigung für Büros und kleinere
+              Geschäftsräume.
+            </p>
+            <span class="card-link">Mehr erfahren →</span>
+          </a>
+
+          <a class="service-card" href="leistungen.html#grundreinigung">
+            <h3>Grundreinigung</h3>
+            <p>
+              Gründliche Reinigung für stärker beanspruchte oder
+              länger nicht gereinigte Räume.
+            </p>
+            <span class="card-link">Mehr erfahren →</span>
+          </a>
+
+          <a class="service-card" href="leistungen.html#fensterreinigung">
+            <h3>Fensterreinigung</h3>
+            <p>
+              Reinigung sicher erreichbarer Fenster, Rahmen
+              und Fensterbänke.
+            </p>
+            <span class="card-link">Mehr erfahren →</span>
+          </a>
+
+        </div>
+
+        <p class="services-note">
+          Endreinigungen, Baureinigungen, Umzüge und Räumungen prüfen wir
+          individuell und bieten sie nach Besichtigung und separater Offerte an.
+        </p>
+
+      </div>
+
     </div>
+  </section>
 
-  </div>
-</section>
+  <section class="about" id="about">
+    <div class="container about-grid">
 
-<section class="values">
-  <div class="container values-grid">
-    <div>
-      <h3>Sorgfalt</h3>
-      <p>Wir behandeln jeden Raum mit grösster Sorgfalt.</p>
+      <div class="about-image">
+        <img
+          src="slike/logo.png"
+          alt="Professionell gereinigter Wohnraum"
+          loading="lazy"
+        >
+      </div>
+
+      <div class="about-text">
+        <span>Über uns</span>
+
+        <h2>Persönlich. Verlässlich. Sorgfältig.</h2>
+
+        <p>
+          Apexora Clean ist ein Reinigungsservice für Privathaushalte und
+          kleinere Geschäftsräume in Zürich und Umgebung. Wir stehen für
+          sorgfältige Arbeit, klare Kommunikation und verlässliche Termine.
+        </p>
+
+        <p>
+          Jede Reinigung wird passend zum Objekt, zum gewünschten Umfang und
+          zu Ihrem Zeitplan abgestimmt. Vor Beginn klären wir die Leistungen
+          transparent und erstellen bei Bedarf eine unverbindliche Offerte.
+        </p>
+
+        <ul>
+          <li>Pünktliche Termine</li>
+          <li>Transparente Offerten</li>
+          <li>Klare Absprachen</li>
+          <li>Für Privat- und Geschäftskunden</li>
+        </ul>
+      </div>
+
     </div>
+  </section>
 
-    <div>
-      <h3>Vertrauen</h3>
-      <p>Klare Kommunikation und transparente Abläufe.</p>
+  <section class="process" id="prozess">
+    <div class="container">
+
+      <div class="section-title center">
+        <span>Unser Ablauf</span>
+        <h2>So einfach funktioniert es</h2>
+      </div>
+
+      <div class="process-grid">
+
+        <div class="process-step">
+          <strong>01</strong>
+          <h3>Kontakt</h3>
+          <p>Sie senden uns Ihre Anfrage.</p>
+        </div>
+
+        <div class="process-step">
+          <strong>02</strong>
+          <h3>Einschätzung</h3>
+          <p>Per Fotos, telefonisch oder direkt vor Ort.</p>
+        </div>
+
+        <div class="process-step">
+          <strong>03</strong>
+          <h3>Offerte</h3>
+          <p>Transparent und unverbindlich.</p>
+        </div>
+
+        <div class="process-step">
+          <strong>04</strong>
+          <h3>Ausführung</h3>
+          <p>Sauber, pünktlich und professionell.</p>
+        </div>
+
+      </div>
+
     </div>
+  </section>
 
-    <div>
-      <h3>Qualität</h3>
-      <p>Hochwertige Arbeit für langanhaltende Ergebnisse.</p>
-    </div>
+  <section class="contact" id="kontakt">
+    <div class="container contact-box">
 
-    <div>
-      <h3>Nachhaltigkeit</h3>
-      <p>Umweltbewusste Produkte und verantwortungsvolles Handeln.</p>
-    </div>
-  </div>
-</section>
+      <span class="contact-kicker">Kontakt</span>
 
-<section class="services" id="leistungen">
-  <div class="container services-layout">
+      <h2>
+        Bereit für ein sauberes Zuhause oder einen gepflegten Arbeitsplatz?
+      </h2>
 
-    <div class="section-title">
-      <span>Unsere Leistungen</span>
-      <h2>Alles aus einer Hand</h2>
       <p>
-        Wir bieten Ihnen ein breites Spektrum an Dienstleistungen –
-        professionell, effizient und auf Ihre Bedürfnisse abgestimmt.
-      </p>
-    </div>
-
-    <div class="service-grid">
-      <article class="service-card">
-        <h3>Umzugstransporte</h3>
-        <p>Professionelle Umzüge für Privatpersonen und Unternehmen.</p>
-      </article>
-
-      <article class="service-card">
-        <h3>Gebäudereinigung</h3>
-        <p>Regelmässige Reinigung für Wohnungen, Büros und Gebäude.</p>
-      </article>
-
-      <article class="service-card">
-        <h3>Spezialreinigungen</h3>
-        <p>Endreinigung, Fensterreinigung, Fassaden- und Baureinigung.</p>
-      </article>
-
-      <article class="service-card">
-        <h3>Entsorgung & Räumung</h3>
-        <p>Fachgerechte Räumung und umweltbewusste Entsorgung.</p>
-      </article>
-    </div>
-
-  </div>
-</section>
-
-<section class="about" id="about">
-  <div class="container about-grid">
-    <div class="about-image">
-      <img src="slike/logo.png" alt="Apexora Clean">
-    </div>
-
-    <div class="about-text">
-      <span>Warum Apexora Clean?</span>
-      <h2>Vertrauen beginnt mit Qualität.</h2>
-      <p>
-        Wir glauben, dass professionelle Dienstleistungen auf Vertrauen,
-        Zuverlässigkeit und Liebe zum Detail basieren. Unser Ziel ist es,
-        jeden Auftrag sauber, pünktlich und effizient auszuführen.
+        Kontaktieren Sie uns direkt oder fordern Sie Ihre unverbindliche
+        Offerte an.
       </p>
 
-      <ul>
-        <li>Pünktliche Termine</li>
-        <li>Transparente Preise</li>
-        <li>Geschultes Personal</li>
-        <li>Privat- und Geschäftskunden</li>
-      </ul>
-    </div>
-  </div>
-</section>
+      <div class="contact-details" aria-label="Kontaktdaten">
+        <a class="contact-detail" href="mailto:apexoraclean@gmail.com">
+          <small>E-Mail</small>
+          <strong>apexoraclean@gmail.com</strong>
+        </a>
 
-<section class="process" id="prozess">
-  <div class="container">
-    <div class="section-title center">
-      <span>Unser Ablauf</span>
-      <h2>So einfach funktioniert es</h2>
-    </div>
+        <a class="contact-detail" href="tel:+41764424805">
+          <small>Telefon</small>
+          <strong>+41 76 442 48 05</strong>
+        </a>
 
-    <div class="process-grid">
-      <div><strong>01</strong><h3>Kontakt</h3><p>Sie senden uns Ihre Anfrage.</p></div>
-      <div><strong>02</strong><h3>Besichtigung</h3><p>Online oder direkt vor Ort.</p></div>
-      <div><strong>03</strong><h3>Offerte</h3><p>Transparent und unverbindlich.</p></div>
-      <div><strong>04</strong><h3>Ausführung</h3><p>Sauber, pünktlich und professionell.</p></div>
-    </div>
-  </div>
-</section>
+        <div class="contact-detail">
+          <small>Einsatzgebiet</small>
+          <strong>Zürich und Umgebung</strong>
+        </div>
 
-<section class="contact" id="kontakt">
-  <div class="container contact-box">
-    <h2>Bereit für Ihre Anfrage?</h2>
-    <p>Fordern Sie jetzt Ihre unverbindliche Offerte an.</p>
+        <div class="contact-detail">
+          <small>Termine</small>
+          <strong>Nach Vereinbarung</strong>
+        </div>
+      </div>
 
-    <div class="contact-actions">
-      <a href="mailto:info@apexora-clean.ch" class="btn primary">E-Mail senden</a>
-      <a href="#" class="btn secondary">WhatsApp kontaktieren</a>
+      <div class="contact-actions">
+        <a
+          href="mailto:apexoraclean@gmail.com?subject=Anfrage%20für%20eine%20Offerte"
+          class="btn contact-primary"
+        >
+          E-Mail schreiben
+        </a>
+
+        <a
+          href="https://wa.me/41764424805?text=Guten%20Tag%2C%20ich%20interessiere%20mich%20f%C3%BCr%20eine%20Offerte%20von%20Apexora%20Clean."
+          class="btn contact-secondary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          WhatsApp schreiben
+        </a>
+      </div>
+
     </div>
-  </div>
-</section>
+  </section>
 
 </main>
 
 <footer class="footer">
-  <div class="container footer-grid">
-    <p>© 2026 Apexora Clean. Alle Rechte vorbehalten.</p>
-    <div>
-      <a href="#">Instagram</a>
-      <a href="#">Facebook</a>
-      <a href="#">TikTok</a>
-      <a href="#">YouTube</a>
+  <div class="container footer-main">
+
+    <div class="footer-brand">
+      <a href="index.html#start" class="footer-logo">Apexora Clean</a>
+      <p>
+        Zuverlässige Reinigungsleistungen für Privathaushalte und kleinere
+        Geschäftsräume in Zürich und Umgebung.
+      </p>
     </div>
+
+    <div class="footer-column">
+      <h3>Navigation</h3>
+      <a href="index.html#start">Startseite</a>
+      <a href="leistungen.html">Leistungen &amp; Preise</a>
+      <a href="index.html#prozess">Ablauf</a>
+      <a href="index.html#about">Über uns</a>
+      <a href="index.html#kontakt">Kontakt</a>
+    </div>
+
+    <div class="footer-column">
+      <h3>Kontakt</h3>
+      <a href="mailto:apexoraclean@gmail.com">apexoraclean@gmail.com</a>
+      <a href="tel:+41764424805">+41 76 442 48 05</a>
+      <span>Zürich und Umgebung</span>
+      <span>Termine nach Vereinbarung</span>
+    </div>
+
+    <div class="footer-column">
+      <h3>Social Media</h3>
+      <a
+        href="https://www.instagram.com/apexoraclean/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Instagram
+      </a>
+      <a
+        href="https://www.facebook.com/profile.php?id=61560165885772"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Facebook
+      </a>
+    </div>
+
+  </div>
+
+  <div class="container footer-bottom">
+    <p>© 2026 Apexora Clean. Alle Rechte vorbehalten.</p>
+    <a href="index.html#kontakt">Kostenlose Offerte anfragen →</a>
   </div>
 </footer>
 
 <script src="js/app.js"></script>
+
 </body>
 </html>
