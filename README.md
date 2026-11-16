@@ -6,4 +6,6 @@ Official pre-launch website for Apexora Clean.
 
 > **Update:** The website is now officially live and open for business at [apexoraclean.com](https://apexoraclean.com). We are actively accepting bookings and service inquiries.
 > > **Update:** Die Website ist jetzt offiziell online und der Geschäftsbetrieb wurde aufgenommen unter [apexoraclean.com](https://apexoraclean.com). Verbindliche Buchungen und Anfragen werden ab sofort entgegengenommen.
-> > 
+> >
+> > **Update:**
+> > https://apexoraclean.ch/ 
